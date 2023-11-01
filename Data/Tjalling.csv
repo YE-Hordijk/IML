@@ -1,0 +1,11 @@
+	ID	price	bedrooms	bathrooms	sqft_living	sqft_lot	floors	waterfront	view	condition	grade	sqft_above	sqft_basement	yr_built	yt_renovated	zipcode	lat	long	sqft_living15	sqft_lot15
+0	1	4	3	7	9	4	3	7	9	4	3	7	9	4	3	7	9	4	3	B’5129’
+1	2	6	6	8	4	6	6	8	4	6	6	8	4	6	6	8	4	6	6	B’5127’
+2	3	9	6	4	8	9	6	4	8	9	6	4	8	9	6	4	8	9	6	B’5149’
+3	4	5	5	7	3	5	5	7	3	5	5	7	3	5	5	7	3	5	5	B’5129’
+4	5	8	4	2	6	8	4	2	6	8	4	2	6	8	4	2	6	8	4	B’5122’
+5	6	1	2	3	6	1	2	3	6	1	2	3	6	1	2	3	6	1	2	B’5129’
+6	7	8	6	4	6	8	6	4	6	8	6	4	6	8	6	4	6	8	6	B’5129’
+7	8	0	5	2	1	0	5	2	1	0	5	2	1	0	5	2	1	0	5	B’5329’
+8	9	4	2	6	3	4	2	6	3	4	2	6	3	4	2	6	3	4	2	B’5679’
+9	10	5	4	5	4	5	4	5	4	5	4	5	4	5	4	5	4	5	4	B’5129’
