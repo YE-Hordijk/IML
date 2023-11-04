@@ -5,7 +5,7 @@ df = df.drop(columns=['id', 'sqft_lot15', 'price'])
 
 for feature in df:
   plt.scatter(df[str(feature)], df_price, color = 'magenta')
-  plt.title(str(feature + ' correlation with price')
+  plt.title(str(feature) + ' correlation with price')
   plt.xlabel(str(feature))
   plt.ylabel('price')
   plt.show()
