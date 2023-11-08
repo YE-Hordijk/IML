@@ -1,21 +1,33 @@
 import os
 import pandas as pd
-
 import preprocessing as pp
-import datavisualisatie as dv
+import datavisualisation as dv
 import machinelearning as ml
+
+
+
+# Create folder for results
+if not os.path.exists('Results'): os.makedirs('Results')
+
 
 # Read the data
 file_path = 'Data/HousePriceDataset.csv' 
-df = pd.read_csv(file_path, sep=',', index_col=0)#, index_col='Timestamp')
+df = pd.read_csv(file_path, sep=',', index_col=0)
 
 
-# TODO gooi de data door preprocessing
+# Preprocessing
 df = pp.preprocessing(df)
-print(df)
 
 
-# TODO visualiseer de data en haal info uit de dataset zodat we daar iets over kunnen schrijven
+# Data Exploration and Visualisation
+dv.show_feature_and_price(df)
+dv.feature_selection(df)
+dv.Price_Distribution(df)
+dv.plot_missing_values(df)
+dv.calculate_price_correlation(df)
+
+
+
 
 
 # TODO paas de data naar machinelearning. train modellen en gooi metrics terug

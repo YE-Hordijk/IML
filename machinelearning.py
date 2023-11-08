@@ -16,6 +16,7 @@ from sklearn.svm import SVC, SVR
 
 #*******************************************************************************
 def Regression(df, Target):
+	print(f"\n\033[42m <-> Regression\033[0m")
 	# Prepare train- and test-set
 	X = df.drop(Target, axis=1) # Remove the target table from the trainingset
 	y = df[Target] # Targets

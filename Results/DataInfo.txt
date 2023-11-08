@@ -1,0 +1,4 @@
+# Info over de data set
+
+
+Het datatyoe van alle colommen is (na preprocessen) float64
